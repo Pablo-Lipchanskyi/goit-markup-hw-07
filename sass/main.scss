@@ -9,13 +9,13 @@
 
 /*index Header */
 .head {
-    background-color: var(--headback);
-    color: var(--headtextcolor);
+    background-color: $headback;
+    color: $headtextcolor;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    border-bottom: 1px solid var(--border-bottom);
+    border-bottom: 1px solid $border-bottom;
 }
 
 .logo {
@@ -24,13 +24,13 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--logocolor);
+    color: $logocolor;
     padding-top: 24px;
     padding-bottom: 25px;
 }
 
 .studio {
-    color: var(--studiocolor);
+    color: $studiocolor;
 }
 
 .menu {
@@ -66,12 +66,12 @@
 .mail {
     display: flex;
     align-items: center;
-    color: var(--textcolor);
+    color: $textcolor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-icon {
-    fill: var(--textcolor);
+    fill: $textcolor;
     width: 22px;
     height: 16px;
     margin-right: 10px;
@@ -80,12 +80,12 @@
 
 .mail:hover,
 .mail:focus {
-    stroke: var(--logocolor);
+    stroke: $logocolor;
     stroke-width: 2px;
 }
 
 .navigation-link.current {
-    color: var(--logocolor);
+    color: $logocolor;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -101,7 +101,7 @@
     margin-top: 29px;
     height: 4px;
     width: 100%;
-    background-color: var(--logocolor);
+    background-color: $logocolor;
     border-radius: 2px;
 }
 
@@ -115,7 +115,7 @@
 
 .navigation-link:focus,
 .navigation-link:hover {
-    color: var(--logocolor);
+    color: $logocolor;
 }
 
 .contact-list {
@@ -125,12 +125,12 @@
 
 .mail:hover,
 .mail:focus {
-    color: var(--logocolor);
+    color: $logocolor;
 }
 
 .tel:hover,
 .tel:focus {
-    color: var(--logocolor);
+    color: $logocolor;
 }
 
 .tel {
@@ -154,8 +154,8 @@
 
 .tel:hover,
 .tel:focus {
-    fill: var(--logocolor);
-    stroke: var(--logocolor);
+    fill: $logocolor;
+    stroke: $logocolor;
     stroke-width: 2px;
 }
 
@@ -173,14 +173,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: var(--footback);
+    background-color: $footback;
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--headback);
+    color: $headback;
 
 }
 
@@ -240,7 +240,7 @@
     justify-content: center;
     width: 270px;
     height: 120px;
-    background-color: var(--backforteamlist);
+    background-color: $backforteamlist;
     margin-bottom: 30px;
     border-radius: 4px;
 
@@ -251,7 +251,7 @@
 }
 
 .features h3 {
-    color: var(--headtextcolor);
+    color: $headtextcolor;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -262,7 +262,7 @@
 .features p {
     width: 270px;
     margin-top: 10px;
-    color: var(--textcolor);
+    color: $textcolor;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -277,7 +277,7 @@
 }
 
 .work-header {
-    color: var(--headtextcolor);
+    color: $headtextcolor;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -317,13 +317,13 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--buttontext);
+    color: $buttontext;
     background: rgba(47, 48, 58, 0.8);
 }
 
 /*Команда*/
 .command {
-    background-color: var(--backforteamlist);
+    background-color: $backforteamlist;
     padding-bottom: 94px;
 }
 
@@ -337,7 +337,7 @@
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--headtextcolor);
+    color: $headtextcolor;
     margin-bottom: 10px;
 }
 
@@ -345,12 +345,12 @@
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--textcolor);
+    color: $textcolor;
     margin-bottom: 16px;
 }
 
 .comm-header {
-    color: var(--headtextcolor);
+    color: $headtextcolor;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -370,7 +370,7 @@
     display: block;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    background: var(--webfoot);
+    background: $webfoot;
 }
 
 .individ:not(:last-child) {
@@ -397,7 +397,7 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    background-color: var(--buttontext);
+    background-color: $buttontext;
     border-radius: 50%;
 
 
@@ -410,7 +410,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    fill: var(--iconcolor);
+    fill: $iconcolor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -419,8 +419,8 @@
 
 .social-item>a:hover,
 .social-item>a:focus {
-    fill: var(--buttontext);
-    background-color: var(--iconhover);
+    fill: $buttontext;
+    background-color: $iconhover;
 
 }
 
@@ -429,7 +429,7 @@
     margin-bottom: 50px;
     text-align: center;
 
-    color: var(--headtextcolor);
+    color: $headtextcolor;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -457,11 +457,11 @@
 }
 
 .client-pozition:hover {
-    border-color: var(--iconhover);
+    border-color: $iconhover;
 }
 
 .client-pozition:focus {
-    border-color: var(--iconhover);
+    border-color: $iconhover;
 }
 
 .client-pozition>a {
@@ -470,10 +470,10 @@
     width: 100%;
     height: 100%;
     border-radius: 4px;
-    border: 1px solid var(--iconcolor);
+    border: 1px solid $iconcolor;
     align-items: center;
     justify-content: center;
-    fill: var(--iconcolor);
+    fill: $iconcolor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -481,14 +481,14 @@
 
 .client-pozition>a:hover,
 .client-pozition>a:focus {
-    fill: var(--iconhover);
-    border-color: var(--iconhover);
+    fill: $iconhover;
+    border-color: $iconhover;
 
 }
 
 .footer {
     display: flex;
-    background-color: var(--footback);
+    background-color: $footback;
     padding-top: 60px;
     padding-bottom: 60px;
     transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -503,7 +503,7 @@
 }
 
 .webfoot {
-    color: var(--webfoot);
+    color: $webfoot;
 }
 
 .adress {
@@ -528,7 +528,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--headback);
+    color: $headback;
     text-decoration: none;
     margin-bottom: 9px;
 }
@@ -547,7 +547,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--buttontext);
+    color: $buttontext;
 }
 
 .links-list {
@@ -572,7 +572,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    fill: var(--buttontext);
+    fill: $buttontext;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -580,19 +580,19 @@
 
 .links-item:hover,
 .links-item:focus {
-    background-color: var(--iconhover);
+    background-color: $iconhover;
 }
 
 .links-item>a:hover,
 .links-item>a:focus {
-    background-color: var(--iconhover);
+    background-color: $iconhover;
 
 }
 
 .footer a:hover,
 .footer a:focus {
     text-decoration: underline;
-    text-decoration-color: var(--buttonhover);
+    text-decoration-color: $buttonhover;
 }
 
 .email-form {
@@ -611,7 +611,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--buttontext);
+    color: $buttontext;
     margin-bottom: 20px;
 }
 
@@ -624,7 +624,7 @@
     padding-left: 16px;
     padding-bottom: 15px;
 
-    background: #2F303A;
+    background: $footback;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -632,7 +632,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
-    /* identical to box height, or 125% */
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -680,7 +679,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $buttonmenucolor;
 
     margin-bottom: 12px;
 }
@@ -696,7 +695,7 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $textcolor;
     margin-bottom: 4px;
 
 }
@@ -735,12 +734,12 @@
 
 .modal-input:focus,
 .modal-input:hover {
-    border-color: var(--iconhover);
+    border-color: $iconhover;
 }
 
 .modal-input:focus+.modal-icon,
 .modal-input:hover+.modal-icon {
-    fill: var(--iconhover);
+    fill: $iconhover;
 }
 
 .textarea {
@@ -764,7 +763,7 @@
 
 .textarea:hover,
 .textarea:focus {
-    border-color: var(--iconhover);
+    border-color: $iconhover;
 }
 
 .checkbox-label {
@@ -796,7 +795,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--textcolor);
+    color: $textcolor;
     text-align: center;
 }
 
@@ -811,7 +810,7 @@
 .terms {
     text-decoration: underline;
     margin-left: 1px;
-    color: var(--buttoncolor);
+    color: $buttoncolor;
 }
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(1.1);
@@ -842,7 +841,7 @@
 
 .close:hover .close-icon,
 .close:focus .close-icon {
-    fill: var(--buttoncolor);
+    fill: $buttoncolor;
 }
 
 
@@ -863,15 +862,15 @@
 
 .menu-item>button {
     cursor: pointer;
-    background: var(--buttonnohover);
-    color: var(--buttonmenucolor);
+    background: $buttonnohover;
+    color: $buttonmenucolor;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    border-color: var(--buttonnohover);
+    border-color: $buttonnohover;
 
     padding: 6px 22px;
     border-width: 0px;
@@ -883,15 +882,15 @@
 .menu-item>button:hover,
 .menu-item>button:focus,
 .menu-item>button.current {
-    color: var(--headback);
-    background-color: var(--buttonhover);
+    color: $headback;
+    background-color: $buttonhover;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
 
 .examples {
     display: flex;
-    background: var(--headback);
+    background: $headback;
     padding: 0;
     list-style: none;
     flex-wrap: wrap;
@@ -941,14 +940,14 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--headtextcolor);
+    color: $headtextcolor;
 }
 
 .item-text>p {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
-    color: var(--textcolor);
+    color: $textcolor;
 
 }
 

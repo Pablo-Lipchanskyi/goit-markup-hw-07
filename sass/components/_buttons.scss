@@ -6,8 +6,8 @@
     border-width: 0px;
     min-width: 200px;
     cursor: pointer;
-    background: var(--buttoncolor);
-    color: var(--buttontext);
+    background: $buttoncolor;
+    color: $buttontext;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -22,8 +22,8 @@
 .hero-button:hover,
 .hero-button:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: var(--buttonhover);
-    color: var(--headback);
+    background-color: $buttonhover;
+    color: $headback;
 }
 .submit {
     cursor: pointer;
@@ -39,7 +39,7 @@
     background: #2196F3;
     border-radius: 4px;
     border-color: #2196F3;
-    fill: var(--webfoot);
+    fill: $webfoot;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -49,8 +49,8 @@
 .submit:hover,
 .submit:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: var(--buttonhover);
-    color: var(--headback);
+    background-color: $buttonhover;
+    color: $headback;
 }
 
 .submit-text {
@@ -59,11 +59,11 @@
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: $headback;
 }
 .submitted {
-    background: var(--buttoncolor);
-    border-color: var(--buttoncolor);
+    background: $buttoncolor;
+    border-color: $buttoncolor;
     border-radius: 4px;
     padding: 10px 55px;
     display: flex;
@@ -75,14 +75,14 @@
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--buttontext);
+    color: $buttontext;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .submitted:hover,
 .submitted:focus {
-    background: var(--buttonhover);
+    background: $buttonhover;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
