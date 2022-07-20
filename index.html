@@ -15,17 +15,17 @@
 <body>
     <header class="head">
         <div class="container head-container">
-        <nav class="nav-list">
-            <a class="logo" href="./index.html" lang="en">
+        <nav class="head-container__nav-list">
+            <a class="head-container__logo" href="./index.html" lang="en">
                 Web<span class="studio">Studio</span>
             </a>
-            <ul class="menu">
-                <li class="nav-link"><a href="./index.html" class="navigation-link current">Студия</a></li>
+            <ul class="head-container__menu">
+                <li class="nav-link"><a href="./index.html" class="navigation-link--current">Студия</a></li>
                 <li><a href="./portfolio.html" class="navigation-link">Портфолио</a></li>
                 <li><a href="./" class="navigation-link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="contact-list">
+        <ul class="head-container__contact-list">
             <li><a class="mail" href="mailto:info@devstudio.com">
                 <svg class="mail-icon" width="16" height="12">
                     <use href="./images/icons.svg#icon-mail"></use>
@@ -41,18 +41,18 @@
     <main>
         <section class="banner">
             <div class="hero-container">
-            <h1 class="text-logo">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+            <h1 class="hero-container__text-logo">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button type="button" class="hero-container__hero-button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
         <section class="section feature-section">
             <div class="container feature-cont">
             <h2 class="visualy-hidden"></h2>
-            <ul class="features">
+            <ul class="feature-cont__features">
                 <li class="feature-list">
-                    <div class="feature-icon">
-                    <svg class="feature-item" width="65" height="70">
+                    <div class="feature-list__feature-icon">
+                    <svg class="feature-list__feature-item" width="65" height="70">
                         <use href="./images/icons.svg#icon-antenna"></use>
                     </svg>
                     </div>
@@ -61,8 +61,8 @@
                 </li>
 
                 <li class="feature-list">
-                    <div class="feature-icon">
-                        <svg class="feature-item" width="67" height="70">
+                    <div class="feature-list__feature-icon">
+                        <svg class="feature-list__feature-item" width="67" height="70">
                             <use href="./images/icons.svg#icon-clock"></use>
                         </svg>
                     </div>
@@ -71,8 +71,8 @@
                 </li>
 
                 <li class="feature-list">
-                    <div class="feature-icon">
-                        <svg class="feature-item" width="70" height="53">
+                    <div class="feature-list__feature-icon">
+                        <svg class="feature-list__feature-item" width="70" height="53">
                             <use href="./images/icons.svg#icon-diagram" ></use>
                         </svg>
                     </div>
@@ -81,8 +81,8 @@
                 </li>
 
                 <li class="feature-list">
-                    <div class="feature-icon">
-                        <svg class="feature-item" width="54" height="60">
+                    <div class="feature-list__feature-icon">
+                        <svg class="feature-list__feature-item" width="54" height="60">
                             <use href="./images/icons.svg#icon-astronaut"></use>
                         </svg>
                     </div>
@@ -95,8 +95,8 @@
 
         <section class="section">
             <div class="container work-container">
-            <h2 class="work-header">Чем мы занимаемся</h2>
-            <ul class="work-list">
+            <h2 class="work-container__work-header">Чем мы занимаемся</h2>
+            <ul class="work-container__work-list">
                 <li class="work-list-items">
                         <img src="./images/layout.jpg" alt="layout" width="370" height="295">
                         <div class="description">
@@ -129,9 +129,9 @@
 
         <section class="command section">
             <div class="container comm-container">
-            <h2 class="comm-header">Наша команда</h2>
+            <h2 class="comm-container__comm-header">Наша команда</h2>
             <ul class="comm-list">
-            <li class="individ">
+            <li class="comm-list__individ">
                 <img src="./images/photo1.jpg" alt="работник1" width="270"/>
                 <div class="name-prof">
                 <h3>Игорь Демьяненко</h3>
@@ -169,7 +169,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="individ">
+            <li class="comm-list__individ">
                 <img src="./images/photo2.jpg" alt="работник2" width="270"/>
                 <div class="name-prof">
                 <h3>Ольга Репина</h3>
@@ -206,7 +206,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="individ">
+            <li class="comm-list__individ">
                 <img src="./images/photo3.jpg" alt="работник3" width="270"/>
                 <div class="name-prof">
                 <h3>Николай Тарасов</h3>
@@ -243,7 +243,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="individ">
+            <li class="comm-list__individ">
                 <img src="./images/photo4.jpg" alt="работник4" width="270"/>
                 <div class="name-prof">       
                 <h3>Михаил Ермаков</h3>
@@ -284,45 +284,45 @@
         </div>
         </section>
         <section class="section">
-            <div class="container" >
-                <h2 class="client-header">Постоянные клиенты</h2>
+            <div class="container clients-container" >
+                <h2 class="clients-container__client-header">Постоянные клиенты</h2>
                 <ul class="client-list">
-                    <li class="client-pozition">
+                    <li class="client-list__client-pozition">
                         <a href="">
                         <svg width="106" height="60">
                             <use href="./images/icons.svg#icon-clientone"></use>
                         </svg>
                         </a>
                     </li>
-                    <li class="client-pozition">
+                    <li class="client-list__client-pozition">
                         <a href="">
                             <svg width="106" height="60">
                                 <use href="./images/icons.svg#icon-clienttwo"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client-pozition">
+                    <li class="client-list__client-pozition">
                         <a href="">
                             <svg width="106" height="60">
                                 <use href="./images/icons.svg#icon-clientthree"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client-pozition">
+                    <li class="client-list__client-pozition">
                         <a href="">
                             <svg width="106" height="60">
                                 <use href="./images/icons.svg#icon-clientfour"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client-pozition">
+                    <li class="client-list__client-pozition">
                         <a href="">
                             <svg width="106" height="60">
                                 <use href="./images/icons.svg#icon-clientfive"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client-pozition">
+                    <li class="client-list__client-pozition">
                         <a href="">
                             <svg width="106" height="60">
                                 <use href="./images/icons.svg#icon-clientsix"></use>
@@ -338,8 +338,8 @@
                 <div>
                 <a class="logo" href="/">Web<span class="webfoot">Studio</span></a>
                 <address class="adress">
-                    <ul class="contacts">
-                        <li><a class="atext" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">г.
+                    <ul class="foot-container__contacts">
+                        <li><a class="foot-container_atext" href="https://bit.ly/3pXMvUd" target="_blank" rel="noopener noreferrer">г.
                                 Киев,
                                 пр-т
                                 Леси Украинки, 26</a> </li>
