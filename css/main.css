@@ -809,7 +809,7 @@ a {
   margin-right: 30px;
 }
 
-.features h3 {
+.feature-list h3 {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -818,7 +818,7 @@ a {
   text-transform: uppercase;
 }
 
-.features p {
+.feature-list p {
   width: 270px;
   margin-top: 10px;
   color: #757575;
